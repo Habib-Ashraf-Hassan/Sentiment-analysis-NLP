@@ -20,8 +20,11 @@ The dataset used for training contains labeled text data with binary sentiment l
 ### Correction
 If using the latest version of scikit-plot make sure to:
 modify the **scikit-plot** library to use **numpy.interp** instead of **scipy.interp.** Here’s how you can do it if you are using google colab:
--Navigate to the directory where the scikit-plot package is installed (usually inside /usr/local/lib/python3.10/dist-packages/scikitplot/).
--Open the metrics.py file.
+
+Navigate to the directory where the scikit-plot package is installed (usually inside /usr/local/lib/python3.10/dist-packages/scikitplot/).
+
+Open the metrics.py file.
+
 Replace _line 27_:
 
 
